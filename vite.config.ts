@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 
-const isUserSite = true
+const isUserSite = false
 const repo = 'crisp-creative-craft'
 export default defineConfig(({ mode }) => ({
   server: {
