@@ -4,6 +4,9 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
+
+const isUserSite = true
+const repo = 'crisp-creative-craft'
 export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
@@ -19,4 +22,5 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  base: isUserSite ? '/' : `/${crisp-creative-craft}/`,
 }));
