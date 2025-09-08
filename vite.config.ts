@@ -22,5 +22,5 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: isUserSite ? '/' : `/${crisp-creative-craft}/`,
+  base: isUserSite ? '/' : `/${repo}/`,
 }));
