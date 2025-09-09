@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
+import logo from '@/assets/logo-outline-cropped.png';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -17,7 +18,7 @@ const Header = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center space-x-2">
-            <img src='src\assets\Fulllogo outline cropped.png' width={'100px'}></img>
+            <img src={logo} width={'100px'}></img>
             <span className="font-body text-xl font-semibold text-foreground">
               AutoRama
             </span>
