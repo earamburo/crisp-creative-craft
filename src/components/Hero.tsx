@@ -17,12 +17,12 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 text-center max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="font-display text-4xl sm:text-5xl lg:text-7xl font-bold text-white mb-6">
-          The Art of{' '}
-          <span className="text-gradient-gold">
+          Restoring Classic{' '}
+          {/* <span className="text-gradient-gold">
             Automotive
-          </span>
+          </span> */}
           <br />
-          Restoration
+          Repairing Daily Drivers
         </h1>
         
         <p className="text-lg sm:text-xl text-gray-200 mb-8 max-w-2xl mx-auto leading-relaxed">
@@ -35,7 +35,7 @@ const Hero = () => {
             size="lg" 
             className="bg-gradient-gold hover:opacity-90 text-black font-semibold shadow-gold px-8 py-3"
           >
-            Discover Our Craft
+            Get an estimate
           </Button>
           <Button 
             variant="outline" 

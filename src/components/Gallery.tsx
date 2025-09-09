@@ -37,7 +37,7 @@ const Gallery = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-display mb-6 text-gradient-gold">
-            Our Portfolio
+            Featured Restorations
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Witness the transformation of classic automobiles through our meticulous restoration process

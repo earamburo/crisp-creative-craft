@@ -16,13 +16,10 @@ const Header = () => {
     <header className="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
-          {/* Logo */}
           <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-gold rounded-md flex items-center justify-center">
-              <span className="text-black font-bold text-sm">C</span>
-            </div>
-            <span className="font-display text-xl font-semibold text-foreground">
-              Classic Auto Revival
+            <img src='src\assets\Fulllogo outline cropped.png' width={'100px'}></img>
+            <span className="font-body text-xl font-semibold text-foreground">
+              AutoRama
             </span>
           </div>
 
@@ -40,9 +37,12 @@ const Header = () => {
           </nav>
 
           {/* CTA Button */}
-          <div className="hidden md:block">
-            <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
-              Appointment
+          <div className="hidden md:block cta-button-container">
+            <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground cta-button">
+              Estimate
+            </Button>
+            <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground cta-button">
+              Contact Us
             </Button>
           </div>
 
