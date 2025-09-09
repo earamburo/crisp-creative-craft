@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://earamburo.github.io/crisp-creative-craft/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
