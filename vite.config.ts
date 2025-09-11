@@ -6,7 +6,7 @@ import { componentTagger } from "lovable-tagger";
 // https://vitejs.dev/config/
 
 const isUserSite = false
-const repo = 'crisp-creative-craft'
+const repo = 'AutoRama'
 export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
@@ -22,5 +22,5 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: '/crisp-creative-craft/',
+  base: '/AutoRama/',
 }));
